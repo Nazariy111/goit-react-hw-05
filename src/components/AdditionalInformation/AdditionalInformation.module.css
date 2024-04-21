@@ -1,0 +1,16 @@
+.container {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 4px;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 8px;
+    background-color: transparent;
+    padding-bottom: 4px;
+    border-bottom: 1px solid var(--primary);
+}
