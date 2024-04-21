@@ -5,10 +5,14 @@ import Loader from "../../components/Loader/Loader";
 import toast from "react-hot-toast";
 import ErrorMessage from "../../components/ErrorMessage/ErrorMessage";
 
+
 const HomePage = () => {
+
   const [isLoading, setIsLoading] = useState(false);
   const [movies, setMovies] = useState(null);
   const [error, setError] = useState(false);
+
+  
   useEffect(() => {
     setError(false);
     setIsLoading(true);

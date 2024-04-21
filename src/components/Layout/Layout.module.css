@@ -1,15 +1,13 @@
-.header {
+.headerSection {
     margin: 0 auto;
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     align-items: center;
     justify-content: center;
-    gap: 24px;
-    padding-bottom: 24px;
-    padding-top: 24px;
-    margin-bottom: 24px;
-    background: linear-gradient(rgba(245, 242, 242, 0.1), rgba(0, 54, 249, 0.2));
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
-        rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    gap: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    background: linear-gradient(rgba(245, 242, 242, 0.106), rgba(19, 37, 105, 0.2));
 }

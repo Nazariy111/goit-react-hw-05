@@ -1,9 +1,9 @@
-.heading {
-    font-size: 2rem;
+.homePageTitle {
+    font-size: 20px;
     text-align: center;
-    margin-bottom: 24px;
+    margin-bottom: 20px;
     text-transform: uppercase;
-    text-shadow: 2px 2px 6px var(--primary);
+    color: black;
 }
 
 .list {
@@ -77,7 +77,7 @@
     margin-bottom: 8px;
 }
 
-.nothingFound {
-    font-size: 2rem;
+.notFound {
+    font-size: 20px;
     text-align: center;
 }

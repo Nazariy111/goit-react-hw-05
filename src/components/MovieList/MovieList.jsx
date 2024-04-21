@@ -2,20 +2,19 @@ import { Link, useLocation } from "react-router-dom";
 import css from "./MovieList.module.css";
 
 const MovieList = ({ moviesList }) => {
-  console.log(moviesList);
 
   const location = useLocation();
 
   return (
     <div>
       {!moviesList && (
-        <p className={css.nothingFound}>
+        <p className={css.notFound}>
           Unfortunately, there is a problem with the connection to the server,
           please try again later
         </p>
       )}
       {location.pathname === "/" && moviesList && (
-        <h1 className={css.heading}>Underrated films you should not miss</h1>
+        <h1 className={css.homePageTitle}>New movies you should watch</h1>
       )}
       <ul className={css.list}>
         {moviesList !== null &&

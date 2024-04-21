@@ -6,7 +6,7 @@ const Navigation = lazy(() => import("../Navigation/Navigation"));
 const Layout = ({ children }) => {
   return (
     <>
-      <header className={css.header}>
+      <header className={css.headerSection}>
         <Navigation />
       </header>
 

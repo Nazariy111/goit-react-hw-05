@@ -1,51 +1,25 @@
 .link {
-    width: 160px;
-    display: inline-flex;
+    width: 100px;
+    display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(90deg, #0000 33%, #fff5, #0000 67%) var(--_p, 100%) / 300% no-repeat,
-        var(--primary);
-    color: #0000;
-    border: none;
-
-    text-shadow: calc(var(--_i, -1) * 0.08em) -0.01em 0 var(--white),
-        calc(var(--_i, -1) * -0.08em) 0.01em 2px #0004;
-    outline-offset: 0.1em;
-    transition: 0.3s;
-
+    color: black;
+    border: 1px solid black;
+    background-color: white;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 24px;
     margin: 0;
     cursor: pointer;
-    padding: 0.1em 0.3em;
+    padding: 5px;
 }
 
 .link:focus,
 .link:hover {
-    background-color: var(--primarySecondary);
-}
-
-@media screen and (min-width: 1280px) {
-    .link {
-        transform: perspective(500px) rotateY(calc(20deg * var(--_i, -1)));
-    }
-
-    .link:focus,
-    .link:hover,
-    .link:focus-visible {
-        --_p: 0%;
-        --_i: 1;
-    }
-
-    .link:active {
-        text-shadow: none;
-        color: var(--c);
-        box-shadow: inset 0 0 9e9Q var(--black);
-        transition: 0s;
-    }
+    background-color: black;
+    color: white;
 }
 
 .active {
-    border: 1px solid #0005;
-    background-color: var(--primarySecondary);
+    background-color: black;
+    color: white;
 }
