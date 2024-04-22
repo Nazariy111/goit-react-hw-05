@@ -6,7 +6,7 @@ const NotFoundPage = () => {
   const location = useLocation();
   const backLinkRef = useRef(location.state ?? "/");
   return (
-    <div>
+    <div className={css.mainContainer}>
       <Link className={css.backLink} to={backLinkRef.current}>
         Go back
       </Link>

@@ -11,12 +11,12 @@ const AdditionalInformation = () => {
     <div className={css.container}>
       <ul className={css.list}>
         <li>
-          <Link className="link" to="cast">
+          <Link className={css.link} to="cast">
             Cast
           </Link>
         </li>
         <li>
-          <Link className="link" to="reviews">
+          <Link className={css.link} to="reviews">
             Reviews
           </Link>
         </li>

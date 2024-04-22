@@ -1,7 +1,24 @@
+.mainContainer {
+    padding: 10px;
+}
+
 .wrap {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 16px;
+}
+
+.link {
+    padding: 5px;
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+}
+
+.link:hover,
+.link:active {
+    color:white;
+    background-color: black;
 }
 
 .img {

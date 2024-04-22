@@ -43,8 +43,8 @@ const MovieDetailsPage = () => {
   }, [movieId]);
 
   return (
-    <div>
-      <Link className="link" to={backLinkRef.current}>
+    <div className={css.mainContainer}>
+      <Link className={css.link} to={backLinkRef.current}>
         Go back
       </Link>
       {error && <ErrorMessage />}

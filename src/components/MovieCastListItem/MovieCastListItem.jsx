@@ -3,7 +3,7 @@ import css from "./MovieCastListItem.module.css";
 const MovieCastListItem = ({ imageUrl, name, character }) => {
   return (
     <div className={css.wrap}>
-      <img className={css.img} src={imageUrl} alt={name} width="150" />
+      <img className={css.img} src={imageUrl} alt={name} width="150" height="225"/>
       <h3>{name}</h3>
       {character !== "" && <p>Character: {character}</p>}
     </div>

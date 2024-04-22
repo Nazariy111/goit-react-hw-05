@@ -20,7 +20,7 @@ const MovieCastList = ({ cast }) => {
       })}
     </ul>
   ) : (
-    <p>We have no information about the cast</p>
+    <p>Sorry! No information about the cast</p>
   );
 };
 

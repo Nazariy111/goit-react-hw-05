@@ -14,3 +14,17 @@
     padding-bottom: 4px;
     border-bottom: 1px solid var(--primary);
 }
+
+.link {
+    padding: 5px;
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+}
+
+.link:hover,
+.link:active,
+.link:focus {
+    color: white;
+    background-color: black;
+}
