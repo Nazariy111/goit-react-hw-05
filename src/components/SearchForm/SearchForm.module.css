@@ -16,8 +16,8 @@
     letter-spacing: 0.02em;
     margin: 0;
     padding: 0.1em 6px;
-    color: var(--primary);
-    border: 1px solid var(--primary);
+    color: black;
+    border: 1px solid black;
     outline: none;
     transition: scale 250ms ease-in-out;
 }
@@ -26,11 +26,8 @@
     color: rgba(0, 77, 255, 0.3);
 }
 
-.input:focus {
-    scale: 1.02;
-}
-
 .button {
     height: 44px;
     font-size: 32px;
+    font-size: 24px;
 }
